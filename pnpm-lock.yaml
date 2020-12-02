@@ -1,5 +1,4 @@
 dependencies:
-  axios: 0.21.0
   regenerator-runtime: 0.13.7
 devDependencies:
   '@babel/core': 7.12.9
@@ -1308,12 +1307,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-  /axios/0.21.0:
-    dependencies:
-      follow-redirects: 1.13.0
-    dev: false
-    resolution:
-      integrity: sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
   /babel-loader/8.2.2_fa474cc1763d2be32ce57156dae52dec:
     dependencies:
       '@babel/core': 7.12.9
@@ -2702,6 +2695,7 @@ packages:
     resolution:
       integrity: sha512-3Z4XhFZ3992uIq0XOqb9AreonueSYphE6oYbpt5+3u06JWklbsPkNv3ZKkP9Bz/r+1MWCaMoSQ28P85+1Yc77w==
   /follow-redirects/1.13.0:
+    dev: true
     engines:
       node: '>=4.0'
     resolution:
@@ -5899,7 +5893,6 @@ packages:
 specifiers:
   '@babel/core': ^7.12.9
   '@babel/preset-env': ^7.12.7
-  axios: ^0.21.0
   babel-loader: ^8.2.2
   css-loader: ^5.0.1
   gh-pages: ^3.1.0
